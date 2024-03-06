@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Verdana, Tahoma; /*Tipo de fontes*/
+    margin: 0;
+}
+nav {
+    width: 100%; /*Largura*/
+    background-color: #FFF; /*cor de fundo*/
+    box-shadow: 1px 1px 10px gray; /*Sombra*/
+    padding: 20px; /*margin dentro do objeto*/
+    box-sizing: border-box; /*Ajustar margem dentro do objeto com a largura*/
+    text-align: center;
+}
+header nav {
+    float: right; /*Jogar elemento para direita*/
+    margin-top: 15px;
+}
+header nav a {
+    text-decoration: none; /*Retirar underline, colocar linha em cima, linha cortada*/
+    color: gray;
+    margin: 20px;
+}
+header nav a:hover { /*Tag de seleção, quando passar o mouse em cima, ele muda de cor*/
+    color: black;
+}
