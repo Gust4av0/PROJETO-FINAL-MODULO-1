@@ -9,6 +9,7 @@ main {
 }
 body {
     font-family: Arial, Verdana;
+    background-color: #3CB371;
 }
 .TituloPrincipal {
     padding-bottom: 30px;
@@ -19,37 +20,34 @@ body {
 }
 #PartePrincipal{
     text-align: center;
-    background-color: #3CB371;
+    
     padding-top: 15px;
     padding-bottom: 15px;
 }
 #FichaTecnica {
     text-align: center;
     padding-bottom: 15px;
-    background-color: #B0C4DE;
+    background-color: white;
 }
 #Personagens {
     text-align: center;
-    background-color: #3CB371;
 }
 #TrilhaSonora {
     text-align: center;
     padding-bottom: 15px;
-    background-color: #B0C4DE;
+    background-color: white;
 }
 #Elementos {
     text-align: center;
-    background-color: #3CB371;
     padding-bottom: 15px;
 }
 #RegrasJogo {
     text-align: center;
     padding-bottom: 15px;
-    background-color: #B0C4DE;
+    background-color: white;
 }
 footer {
     text-align: center;
-    background-color: #3CB371;
     padding: 15px;
     font-style: italic;
 }
