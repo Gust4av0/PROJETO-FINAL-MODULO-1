@@ -90,4 +90,9 @@ footer {
     background-color: #3CB371;
     color: white;
 }
+.FixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
 
