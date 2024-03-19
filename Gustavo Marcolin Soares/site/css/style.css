@@ -1,32 +1,78 @@
-body {
-    font-family: Arial, Verdana, Tahoma; /*Tipo de fontes*/
-    margin: 0;
-    background-color: black;
-    color: white;
+/*CSS Reset*/
+* {
+    margin: 0; /*Retirar a margem externa*/
+    padding: 0; /*Retirar a margemin interna*/
+}
+
+/*Outras Tags*/
+.centro {
+    width: 1000px;
+    margin: auto;
+}
+h2 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+#ComecoSite {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+#BarraPrincipal {
+    background-color: #3CB371;
+}
+
+/*Botão do Jogo*/
+.BotaoJogo{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+button {
+    background-color: white;
+    width: 15%;
+}
+
+/*Sobre Mim*/
+.SobreMim {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: white;
+}
+
+/*Barra Navegação Principal*/
+nav ul li{
+    display: inline-block;
+    padding: 20px; 
 }
 nav {
-    width: 100%; /*Largura*/
-    background-color: #FFF; /*cor de fundo*/
-    box-shadow: 1px 1px 10px gray; /*Sombra*/
-    padding: 15px; /*margin dentro do objeto*/
-    box-sizing: border-box; /*Ajustar margem dentro do objeto com a largura*/
+    text-align: right;
+}
+
+/*Formulário*/
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#Contato {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*Rodapé*/
+footer {
     text-align: center;
-    background-color: green;
+    padding: 15px;
+    font-style: italic;
+    background-color: white;
+    background-color: #3CB371;
 }
-header nav {
-    float: right; /*Jogar elemento para direita*/
-    margin-top: 15px;
-}
-header nav a {
-    text-decoration: none; /*Retirar underline, colocar linha em cima, linha cortada*/
-    color: gray;
-    margin: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-header nav a:hover { /*Tag de seleção, quando passar o mouse em cima, ele muda de cor*/
-    color: black;
-}
-main {
-    margin-left: 20px;
-}
+
