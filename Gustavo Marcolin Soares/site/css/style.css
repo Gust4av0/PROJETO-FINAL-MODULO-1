@@ -6,7 +6,7 @@
 
 /*Outras Tags*/
 .centro {
-    width: 1000px;
+    width: 100%;
     margin: auto;
 }
 h2 {
@@ -20,7 +20,7 @@ h1 {
     padding-bottom: 50px;
     background-color: white;
 }
-#BarraPrincipal {
+header {
     background-color: #3CB371;
 }
 
@@ -66,7 +66,10 @@ label {
 }
 input, textarea {
     margin-bottom: 10px;
-    width: 100%;
+    width: 40%;
+}
+form {
+    text-align: center;
 }
 
 #Contato {
@@ -94,4 +97,11 @@ footer {
     bottom: 0;
     position: fixed;
     width: 100%;
+}
+
+@media (max-width: 420px){ /*Tag para deixar o site responsivo*/
+    nav {
+        text-align: center;
+    }
+   
 }
