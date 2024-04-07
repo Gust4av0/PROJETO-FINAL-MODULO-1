@@ -1,107 +1,61 @@
-/*CSS Reset*/
-* {
-    margin: 0; /*Retirar a margem externa*/
-    padding: 0; /*Retirar a margemin interna*/
+* { /*Resetar CSS*/
+    margin: 0;
+    padding: 0;
 }
-
-/*Outras Tags*/
-.centro {
-    width: 100%;
-    margin: auto;
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 16px;
+    padding-top: 100px;
 }
-h2 {
-    text-align: center;
+.header {
+    background: #228B22;
+    width: 100%; /*Largura*/
+    position: fixed; /*Fixar cabeçalho ao topo*/
+    top: 0; /*Fixar cabeçalho ao topo*/
+    padding: 10px;
 }
-h1 {
-    text-align: center;
+.header .navPrincipal {
+    float: right;
+    text-transform: uppercase;
+    margin-right: 20px;
 }
-#ComecoSite {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: white;
+.header .navPrincipal ul li {
+    list-style: none; /*Retirar Bolinho da lista*/
+    display: inline-block; /*Deixar os iten um ao lado do outro*/
+    margin: 15px; /*Margem entre os itens*/
 }
-header {
-    background-color: #3CB371;
+.header .navPrincipal ul li a {
+    text-decoration: none; /*Retirar Sublinhado*/
+    color: rgb(39, 39, 39);
 }
-
-/*Botão do Jogo*/
-.BotaoJogo{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.header .navPrincipal ul li a:hover {
+    color: #F0F8FF;
+    transition: all 0.5s;
 }
-button {
-    background-color: white;
-    width: 15%;
-}
-
-/*Sobre Mim*/
-.SobreMim {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    background-color: white;
-}
-
-/*Barra Navegação Principal*/
-nav ul li{
+.meiosContatos ul li {
     display: inline-block;
-    padding: 20px; 
-
+    list-style: none;
+    margin: 10px;
 }
-a{
-    color: white;
-}
-a:hover {
-    color: gray;
-}
-nav {
-    text-align: right;
-}
-
-/*Formulário*/
-label {
-    display: block;
-    margin-bottom: 10px;
-}
-input, textarea {
-    margin-bottom: 10px;
-    width: 40%;
-}
-form {
-    text-align: center;
-}
-
-#Contato {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-/*Botão Formulário*/
-.BotaoEnviar {
-    background-color: #3CB371;
-    border-radius: 50px;
-    color: white;
-}
-
-/*Rodapé*/
 footer {
     text-align: center;
-    padding: 15px;
-    font-style: italic;
-    background-color: white;
-    background-color: #3CB371;
-    color: white;
-}
-.FixarRodape {
+    background: #228B22;
     bottom: 0;
     position: fixed;
     width: 100%;
 }
-
-@media (max-width: 420px){ /*Tag para deixar o site responsivo*/
-    nav {
-        text-align: center;
-    }
-   
+footer p a{
+    text-decoration: none;
+}
+footer p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer nav ul li a{
+    color: rgb(39, 39, 39);
+}
+footer nav ul li a:hover {
+    color: white;
+    transition: all 0.5s;
 }

@@ -1,28 +1,42 @@
-/*CSS Reset*/
-* {
-    margin: 0; /*Retirar a margem externa*/
-    padding: 0; /*Retirar a margemin interna*/
-}
-nav ul li{
-    display: inline-block;
-    padding: 20px; 
-
-}
-a{
-    color: white;
-}
-a:hover {
-    color: gray;
-}
-nav {
-    text-align: right;
-}
-main {
-    width: 100%;
+* { /*Resetar CSS*/
+    margin: 0;
+    padding: 0;
 }
 body {
-    font-family: Arial, Verdana;
-    background-color: #3CB371;
+    margin: 0;
+    font-family: Arial;
+    font-size: 16px;
+    padding-top: 100px;
+}
+.header {
+    background: #228B22;
+    width: 100%; /*Largura*/
+    position: fixed; /*Fixar cabeçalho ao topo*/
+    top: 0; /*Fixar cabeçalho ao topo*/
+    padding: 10px;
+}
+.header .navPrincipal {
+    float: right;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+.header .navPrincipal ul li {
+    list-style: none; /*Retirar Bolinho da lista*/
+    display: inline-block; /*Deixar os iten um ao lado do outro*/
+    margin: 15px; /*Margem entre os itens*/
+}
+.header .navPrincipal ul li a {
+    text-decoration: none; /*Retirar Sublinhado*/
+    color: rgb(39, 39, 39);
+}
+.header .navPrincipal ul li a:hover {
+    color: #F0F8FF;
+    transition: all 0.5s;
+}
+.meiosContatos ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
 }
 .TituloPrincipal {
     padding-bottom: 30px;
@@ -61,6 +75,20 @@ body {
 }
 footer {
     text-align: center;
-    padding: 15px;
-    font-style: italic;
+    background: #228B22;
+    width: 100%;
+}
+footer p a{
+    text-decoration: none;
+}
+footer p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer nav ul li a{
+    color: rgb(39, 39, 39);
+}
+footer nav ul li a:hover {
+    color: white;
+    transition: all 0.5s;
 }
