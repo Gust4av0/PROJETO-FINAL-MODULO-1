@@ -6,66 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Deixar o site responsivo-->
     <meta name="description"
         content="Projeto final do módulo 1, Instituição Integrado, desenvolvido por: Gustavo Marcolin Soares">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/all.min.css"> <!--Ícones do font awesome-->
+    <link rel="stylesheet" href="css/aos.css"> <!--Animações da Página-->
+    <link rel="stylesheet" href="css/lightbox.min.css"> <!--Quando clicar na imagem, irá dar efeito de zoom-->
 
     <title>Contato</title>
 </head>
 
 <body>
-    <header>
-        <section id="BarraPrincipal">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="documentacao.html">Documentação Jogo</a></li>
-                    <li><a href="game.html">Game</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </section>
+    <header class="header">
+        <nav class="navPrincipal">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="sobre.html">
+                        <i class="fa-solid fa-circle-question"></i>
+                        Sobre
+                    </a>
+                </li>
+                <li>
+                    <a href="documentacao.html">
+                        <i class="fa-solid fa-book"></i>
+                        Documentação do Jogo
+                    </a>
+                </li>
+                <li>
+                    <a href="game.html">
+                        <i class="fa-solid fa-gamepad"></i>
+                        Game
+                    </a>
+                </li>
+                <li>
+                    <a href="contato.html">
+                        <i class="fa-solid fa-envelope"></i>
+                        Contato
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section id="Contato">
-            <div class="centro">
-                <h2>Entre em contato</h2>
+        <h2>Entre em contato</h2>
 
-                <form name="FormContato">
-                    <label for="Nome">Digite seu nome:</label>
-                    <input type="text" title="Seu nome aqui!" required>
-                    <br>
+        <div class="formContato">
 
-                    <label for="Numero">Digite seu número:</label>
-                    <input type="number" title="Seu número aqui!" required>
-                    <br>
+            <form name="FormContato">
+                <label for="Nome">Digite seu nome:</label>
+                <input type="text" title="Seu nome aqui!" required>
+                <br>
 
-                    <label for="Email">Digite seu email:</label>
-                    <input type="email" title="Seu email aqui!" required>
-                    <br>
+                <label for="Numero">Digite seu número:</label>
+                <input type="number" title="Seu número aqui!" required>
+                <br>
 
-                    <label for="Mensagem">Digite sua mensagem!</label>
-                    <textarea name="Mensagem" id="Mensagem" rows="10"></textarea>
-                    <br>
-                    <button class="BotaoEnviar">
-                        Enviar formulário!
-                    </button>
-                </form>
-            </div>
-        </section>
+                <label for="Email">Digite seu email:</label>
+                <input type="email" title="Seu email aqui!" required>
+                <br>
 
-        <footer class="FixarRodape">
-            <p>Desenvolvido por Gustavo Marcolin Soares - </p>
-            <p>
-                <a href="tel: 5544998800700">Contato: (44) 99880-0700</a>
-            </p>
-            <p>
-                <a href="mailto: gustavomarcolin2005@gmail.com">Email: gustavomarcolin2005@gmail.com</a>
-            </p>
-            <br>
-            <hr>
-            <br>
-            <p>Todos os Direitos Reservados!</p>
-        </footer>
-
+                <label for="Mensagem">Digite sua mensagem!</label>
+                <textarea name="Mensagem" id="Mensagem" rows="10"></textarea>
+                <br>
+                <button class="BotaoEnviar">
+                    Enviar formulário!
+                </button>
+            </form>
+        </div>
     </main>
+
+    <footer>
+        <p>Desenvolvido por Gustavo Marcolin Soares - </p>
+        <p>
+            <a href="tel: 5544998800700">Contato: (44) 99880-0700</a>
+        </p>
+        <p>
+            <a href="mailto: gustavomarcolin2005@gmail.com">Email: gustavomarcolin2005@gmail.com</a>
+        </p>
+        <br>
+        <hr>
+        <br>
+        <p>Todos os Direitos Reservados!</p>
+    </footer>
+
 </body>
