@@ -9,14 +9,16 @@ body {
     padding-top: 100px;
 }
 .header {
-    background: #CCC;
+    background: #228B22;
     width: 100%; /*Largura*/
     position: fixed; /*Fixar cabeçalho ao topo*/
     top: 0; /*Fixar cabeçalho ao topo*/
+    padding: 10px;
 }
 
 .header .navPrincipal {
     float: right;
+    text-transform: uppercase;
 }
 .header .navPrincipal ul li {
     list-style: none; /*Retirar Bolinho da lista*/
@@ -25,4 +27,92 @@ body {
 }
 .header .navPrincipal ul li a {
     text-decoration: none; /*Retirar Sublinhado*/
+    color: rgb(39, 39, 39);
+}
+.header .navPrincipal ul li a:hover {
+    color: #F0F8FF;
+    transition: all 0.5s;
+}
+main {
+    text-align: center;
+}
+.titulos {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #228B22;
+}
+label {
+    font-weight: bold; /*Deixar todo o texto negrito*/
+}
+.formulario {
+    width: 40%;
+    box-sizing: border-box; /*Retirar barra de rolagem ao final da página*/
+}
+input {
+    padding: 10px;
+}
+label, .formulario {
+    margin: 10px 0;
+}
+.btn_enviar, .btn_resetar {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #FFF;
+}
+.btn_enviar {
+    padding-top: 10px;
+}
+.btn_enviar {
+    background-color: green;
+}
+.btn_enviar:hover {
+    background-color: #CCC;
+    color: green;
+    transition: all 0.5s;
+}
+
+.btn_resetar {
+    background-color: #F00;
+}
+.btn_resetar:hover {
+    background-color: #CCC;
+    color: #F00;
+    transition: all 0.5s;
+}
+.formulario:focus {
+    background-color: rgb(250, 250, 101);
+}
+.meiosContatos ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+main nav ul li a {
+    color: rgb(39, 39, 39);
+}
+main nav ul li a:hover {
+    color: #228B22;
+    transition: all 0.5s;
+}
+footer {
+    text-align: center;
+    background: #228B22;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+footer p a{
+    text-decoration: none;
+}
+footer p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer nav ul li a{
+    color: rgb(39, 39, 39);
+}
+footer nav ul li a:hover {
+    color: white;
+    transition: all 0.5s;
 }

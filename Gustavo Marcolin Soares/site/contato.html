@@ -52,45 +52,85 @@
             </ul>
         </nav>
     </header>
+
     <main>
-        <h2>Entre em contato</h2>
+        <h2 class="titulos">Preencha o Formulário!</h2>
 
         <div class="formContato">
 
-            <form name="FormContato">
-                <label for="Nome">Digite seu nome:</label>
-                <input type="text" title="Seu nome aqui!" required>
+            <form name="FormContato" method="post" action="salvar.php">
+                <label for="nome">Nome:</label>
+                <br>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu Nome Aqui!" autocomplete="off" required
+                    class="formulario" title="Nome">
                 <br>
 
-                <label for="Numero">Digite seu número:</label>
-                <input type="number" title="Seu número aqui!" required>
+                <label for="telefone">Telefone:</label>
+                <br>
+                <input type="number" name="telefone" id="telefone" placeholder="Digite seu Telefone Aqui!"
+                    autocomplete="off" required class="formulario" title="Telefone">
                 <br>
 
-                <label for="Email">Digite seu email:</label>
-                <input type="email" title="Seu email aqui!" required>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" name="email" id="email" placeholder="Digite seu Email Aqui!" autocomplete="off"
+                    required class="formulario" title="Telefone">
                 <br>
 
-                <label for="Mensagem">Digite sua mensagem!</label>
-                <textarea name="Mensagem" id="Mensagem" rows="10"></textarea>
+                <label for="dataNascimento">Data de Nascimento:</label>
                 <br>
-                <button class="BotaoEnviar">
-                    Enviar formulário!
+                <input type="date" name="dataNascimento" id="dataNascimento" autocomplete="off" required
+                    class="formulario"><br>
+
+                <button type="submit" class="btn_enviar">
+                    Enviar Formulário!
+                </button>
+                <button type="reset" class="btn_resetar">
+                    Resetar Dados!
                 </button>
             </form>
         </div>
+
+        <h2 class="titulos">Outros Meios de Contato:</h2>
+        <nav class="meiosContatos">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/gustavo-marcolin-soares-b07ab42b0/" target="_blank"
+                        title="Linkedin">
+                        <i class="fa-brands fa-linkedin fa-5x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" title="Whatsapp">
+                        <i class="fa-brands fa-whatsapp fa-5x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto: gustavomarcolin2005@gmail.com" title="Gmail">
+                        <i class="fa-solid fa-envelope fa-5x"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </main>
 
     <footer>
-        <p>Desenvolvido por Gustavo Marcolin Soares - </p>
-        <p>
-            <a href="tel: 5544998800700">Contato: (44) 99880-0700</a>
-        </p>
-        <p>
-            <a href="mailto: gustavomarcolin2005@gmail.com">Email: gustavomarcolin2005@gmail.com</a>
-        </p>
-        <br>
-        <hr>
-        <br>
+        <p>Desenvolvido por: Gustavo Marcolin Soares</p>
+        <nav class="meiosContatos">
+            <ul>
+                <li>
+                    <a href="https://github.com/Gust4av0" title="Github" target="_blank">
+                        <i class="fa-brands fa-github fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/gustavo-marcolin-soares-b07ab42b0/" target="_blank"
+                        title="Linkedin">
+                        <i class="fa-brands fa-linkedin fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
         <p>Todos os Direitos Reservados!</p>
     </footer>
 
