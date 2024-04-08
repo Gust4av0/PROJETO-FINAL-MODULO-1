@@ -38,11 +38,12 @@ body {
     list-style: none;
     margin: 10px;
 }
+.bannerPrincipal {
+    width: 100%;
+}
 footer {
     text-align: center;
     background: #228B22;
-    bottom: 0;
-    position: fixed;
     width: 100%;
 }
 footer p a{
