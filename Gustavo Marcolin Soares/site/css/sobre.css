@@ -38,11 +38,22 @@ body {
     list-style: none;
     margin: 10px;
 }
+main {
+    text-align: center;
+}
+.foto_construct3 {
+    width: 15%;
+}
+.foto_gustavo {
+    width: 15%;
+}
+.conteudo_sobre {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 footer {
     text-align: center;
     background: #228B22;
-    bottom: 0;
-    position: fixed;
     width: 100%;
 }
 footer p a{
