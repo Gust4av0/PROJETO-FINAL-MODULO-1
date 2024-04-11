@@ -37,6 +37,30 @@ body {
     list-style: none;
     margin: 10px;
 }
+main {
+    text-align: center;
+}
+.titulos {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.iframe-jogo {
+    padding-bottom: 100px;
+}
+.BotaoJogo {
+    border: none;
+    padding: 30px 30px;
+    border-radius: 20px;
+    background-color: #228B22;
+    font-size: 13px;
+    color: #FFF;
+}
+.BotaoJogo:hover{
+    color: #228B22;
+    font-size: 14px;
+    background-color: #CCC;
+    transition: all 0.5s;
+}
 footer {
     text-align: center;
     background: #228B22;
