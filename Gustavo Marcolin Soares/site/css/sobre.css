@@ -47,6 +47,12 @@ main {
 .foto_gustavo {
     width: 15%;
 }
+.img {
+    transition: all 1s;
+}
+.img:hover {
+    transform: rotate(360deg);
+}
 .conteudo_sobre {
     padding-top: 50px;
     padding-bottom: 50px;
