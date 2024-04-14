@@ -39,10 +39,15 @@ body {
 }
 main {
     text-align: center;
+    color: #228B22;
 }
 .titulos {
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 50px;
+}
+.tituloInformativo{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .iframe-jogo {
     padding-bottom: 100px;
@@ -61,11 +66,13 @@ main {
     background-color: #CCC;
     transition: all 0.5s;
 }
+.imagemLayout {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 footer {
     text-align: center;
     background: #228B22;
-    bottom: 0;
-    position: fixed;
     width: 100%;
 }
 footer p a{
