@@ -7,6 +7,7 @@ body {
     font-family: Arial;
     font-size: 16px;
     padding-top: 100px;
+    background-color: black;
 }
 .header {
     background: #228B22;
@@ -41,6 +42,7 @@ main {
     text-align: center;
     color: #228B22;
 }
+
 .titulos {
     padding-top: 50px;
     padding-bottom: 50px;

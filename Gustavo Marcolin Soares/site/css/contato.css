@@ -7,6 +7,7 @@ body {
     font-family: Arial;
     font-size: 16px;
     padding-top: 100px;
+    background-color: black;
 }
 .header {
     background: #228B22;
@@ -37,6 +38,9 @@ body {
 main {
     text-align: center;
     padding-bottom: 50px;
+    color: #FFF;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .titulos {
     padding-bottom: 20px;
@@ -103,7 +107,7 @@ main nav ul li a {
     color: rgb(39, 39, 39);
 }
 main nav ul li a:hover {
-    color: #228B22;
+    color: #FFF;
     transition: all 0.5s;
 }
 footer {
