@@ -4508,13 +4508,12 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Button,
 		C3.Behaviors.wrap,
 		C3.Behaviors.Bullet,
-		C3.Plugins.System.Cnds.OnLayoutStart,
-		C3.Plugins.Audio.Acts.Play,
 		C3.Plugins.Button.Cnds.OnClicked,
 		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.Button.Acts.SetVisible,
 		C3.Plugins.Text.Acts.SetVisible,
 		C3.Plugins.System.Acts.GoToLayout,
+		C3.Plugins.Audio.Acts.Play,
 		C3.Plugins.System.Cnds.EveryTick,
 		C3.Plugins.Sprite.Acts.SetAnim,
 		C3.Plugins.System.Cnds.CompareVar,
@@ -4537,6 +4536,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.solid.Acts.SetEnabled,
 		C3.Plugins.Sprite.Acts.Destroy,
 		C3.Plugins.System.Acts.SubVar,
+		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.Plugins.Audio.Acts.SetLooping,
 		C3.Plugins.Audio.Acts.SetMuted
 	];
@@ -4714,11 +4714,11 @@ function or(l, r)
 }
 
 self.C3_ExpressionFuncs = [
+		() => 2,
+		() => 5,
 		() => 1,
 		() => 0,
 		() => "",
-		() => 2,
-		() => 5,
 		p => {
 			const v0 = p._GetNode(0).GetVar();
 			return () => and("", v0.GetValue());
