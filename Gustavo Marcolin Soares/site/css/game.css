@@ -43,10 +43,9 @@ main {
     text-align: center;
     color: #228B22;
 }
-
 .titulos {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 .tituloInformativo{
     padding-top: 20px;
@@ -91,4 +90,13 @@ footer nav ul li a{
 footer nav ul li a:hover {
     color: white;
     transition: all 0.5s;
+}
+.iframeGame {
+    display: block;
+    display: inline-flex;
+}
+@media (max-width:480px){
+    .iframeGame {
+        display: none;
+    }
 }
