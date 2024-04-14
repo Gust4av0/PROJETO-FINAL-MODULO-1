@@ -17,9 +17,10 @@ body {
     padding: 10px;
 }
 .header .navPrincipal {
-    float: right;
+    text-align: center;
     text-transform: uppercase;
     margin-right: 50px;
+    padding: 20px;
 }
 .header .navPrincipal ul li {
     list-style: none; /*Retirar Bolinho da lista*/
