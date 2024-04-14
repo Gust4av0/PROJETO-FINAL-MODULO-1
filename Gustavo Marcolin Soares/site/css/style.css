@@ -11,6 +11,8 @@ body {
 }
 .logo_gustavo{
     width: 15%;
+    display: block;
+    display: inline-flex;
 }
 .header {
     background: #228B22;
@@ -86,4 +88,12 @@ footer nav ul li a{
 footer nav ul li a:hover {
     color: white;
     transition: all 0.5s;
+}
+@media (max-width:480px){
+    .logo_gustavo {
+        display: none;
+    }
+    .header .navPrincipal {
+        padding-top: 10px;
+    }
 }
