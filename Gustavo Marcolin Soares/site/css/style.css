@@ -10,12 +10,12 @@ body {
     background-color: black;
 }
 .logo_gustavo{
-    width: 15%;
+    width: 10%;
     display: block;
     display: inline-flex;
 }
 .header {
-    background: #228B22;
+    background: #747474;
     width: 100%; /*Largura*/
     position: fixed; /*Fixar cabeçalho ao topo*/
     top: 0; /*Fixar cabeçalho ao topo*/
@@ -24,12 +24,15 @@ body {
     float: right;
     text-transform: uppercase;
     margin-right: 20px;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 .header .navPrincipal ul li {
     list-style: none; /*Retirar Bolinho da lista*/
     display: inline-block; /*Deixar os iten um ao lado do outro*/
     margin: 35px; /*Margem entre os itens*/
+}
+header {
+    height: 150px;
 }
 .header .navPrincipal ul li a {
     text-decoration: none; /*Retirar Sublinhado*/
@@ -49,21 +52,22 @@ body {
 }
 main {
     text-align: center;
-    padding-top: 250px;
+    padding-top: 120px;
     padding-bottom: 100px;
 }
 main p {
-    color: #FFF;
+    color: #CCC;
 }
 .tituloPrincipal {
     padding-top: 10px;
     padding-bottom: 15px;
-    color: #228B22;
+    color: #FFF;
+    text-transform: uppercase;
 }
 .subtitulos {
     padding-top: 30px;
     padding-bottom: 30px;
-    color: #228B22;
+    color: yellow;
 }
 main p {
     margin: 10px;
@@ -72,7 +76,7 @@ main p {
 }
 footer {
     text-align: center;
-    background: #228B22;
+    background: #747474;
     width: 100%;
 }
 footer p a{
@@ -95,5 +99,12 @@ footer nav ul li a:hover {
     }
     .header .navPrincipal {
         padding-top: 10px;
+        text-align: center;
+    }
+    header {
+        height: 280px;
+    }
+    main {
+        padding-top: 200px;
     }
 }

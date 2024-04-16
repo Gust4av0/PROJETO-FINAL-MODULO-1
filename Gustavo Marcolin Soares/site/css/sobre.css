@@ -10,7 +10,7 @@ body {
     background-color: black;
 }
 .header {
-    background: #228B22;
+    background: #747474;
     width: 100%; /*Largura*/
     position: fixed; /*Fixar cabeçalho ao topo*/
     top: 0; /*Fixar cabeçalho ao topo*/
@@ -42,7 +42,7 @@ body {
 }
 main {
     text-align: center;
-    color: #FFF;
+    color: #CCC;
     padding-top: 130px;
     padding-bottom: 100px;
 }
@@ -65,11 +65,11 @@ main {
 }
 .sobre {
     padding-bottom: 50px;
-    color: #228B22;
+    color: #FFF;
 }
 footer {
     text-align: center;
-    background: #228B22;
+    background: #747474;
     width: 100%;
 }
 footer p a{

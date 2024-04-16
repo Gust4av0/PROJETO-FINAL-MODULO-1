@@ -10,7 +10,7 @@ body {
     background-color: black;
 }
 .header {
-    background: #228B22;
+    background: #747474;
     width: 100%; /*Largura*/
     position: fixed; /*Fixar cabeçalho ao topo*/
     top: 0; /*Fixar cabeçalho ao topo*/
@@ -42,7 +42,8 @@ body {
 }
 .TituloPrincipal {
     padding-bottom: 30px;
-    color: #228B22;
+    color: #FFF;
+    text-transform: uppercase;
 }
 .fimTituloPrincipal{
     padding-bottom: 50px;
@@ -50,17 +51,18 @@ body {
 .TitulosSecundarios {
     padding-top: 15px;
     padding-bottom: 15px;
-    color: #228B22;
+    color: #FFF;
+    text-transform: uppercase;
 }
 main {
-    color: #FFF;
+    color: #CCC;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 footer {
     text-align: center;
-    background: #228B22;
+    background: #747474;
     width: 100%;
 }
 footer p a{
@@ -76,4 +78,9 @@ footer nav ul li a{
 footer nav ul li a:hover {
     color: white;
     transition: all 0.5s;
+}
+@media (max-width:480px){
+    main {
+        padding-top: 150px;
+    }
 }
