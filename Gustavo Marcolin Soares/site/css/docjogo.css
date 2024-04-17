@@ -54,6 +54,18 @@ body {
     color: #FFF;
     text-transform: uppercase;
 }
+.dropdowm-menu {
+    position: absolute;
+    padding-top: 15px;
+    display: none;
+}
+.dropdowm-menu a {
+    display: block;
+}
+.dropdowm:hover .dropdowm-menu {
+    display: block;
+    transition: all 0.5s;
+}
 main {
     color: #CCC;
     text-align: center;

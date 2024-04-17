@@ -93,6 +93,18 @@ footer nav ul li a:hover {
     color: white;
     transition: all 0.5s;
 }
+.dropdowm-menu {
+    position: absolute;
+    padding-top: 15px;
+    display: none;
+}
+.dropdowm-menu a {
+    display: block;
+}
+.dropdowm:hover .dropdowm-menu {
+    display: block;
+    transition: all 0.5s;
+}
 @media (max-width:480px){
     .logo_gustavo {
         display: none;
@@ -102,7 +114,7 @@ footer nav ul li a:hover {
         text-align: center;
     }
     header {
-        height: 280px;
+        height: 200px;
     }
     main {
         padding-top: 200px;
