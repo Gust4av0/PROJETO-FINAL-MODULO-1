@@ -51,7 +51,7 @@ body {
 .TitulosSecundarios {
     padding-top: 15px;
     padding-bottom: 15px;
-    color: #FFF;
+    color: yellow;
     text-transform: uppercase;
 }
 .dropdowm-menu {
@@ -65,6 +65,15 @@ body {
 .dropdowm:hover .dropdowm-menu {
     display: block;
     transition: all 0.5s;
+}
+.imagensPersonagens {
+    width: 10%;
+    padding-bottom: 50px;
+}
+.layoutJogo{
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 main {
     color: #CCC;
@@ -94,5 +103,11 @@ footer nav ul li a:hover {
 @media (max-width:480px){
     main {
         padding-top: 150px;
+    }
+    .imagensPersonagens{
+        width: 50%;
+    }
+    .layoutJogo{
+        width: 100%;
     }
 }
